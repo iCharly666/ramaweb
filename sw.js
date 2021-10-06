@@ -24,7 +24,6 @@ self.addEventListener('install', e => {
         .catch(err => console.log('Falló registro de cache', err))
     )
 })
-
 //una vez que se instala el SW, se activa y busca los recursos para hacer que funcione sin conexión
 self.addEventListener('activate', e => {
     const cacheWhitelist = [CACHE_NAME]
