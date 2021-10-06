@@ -44,7 +44,7 @@
         },
         {
             "src": "./img/favicon.png",
-            "sizes": "16x16",
+            "sizes": "15x15",
             "type": "image/png"
         }
     ]
